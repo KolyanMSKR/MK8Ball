@@ -9,7 +9,9 @@ import Foundation
 
 class NetworkService {
 
-    private func createDataTask(request: URLRequest, completion: @escaping (Data?, Error?) -> Void) {
+    private func createDataTask(request: URLRequest,
+                                completion: @escaping (Data?, Error?) -> Void) {
+
         URLSession.shared.dataTask(with: request, completionHandler: { data, response, error in
             guard let httpStatusCode = (response as? HTTPURLResponse)?.statusCode else {
                 completion(nil, error)
