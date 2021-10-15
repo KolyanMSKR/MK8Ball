@@ -64,7 +64,7 @@
         <!--Main-->
         <scene sceneID="76k-7k-h8E">
             <objects>
-                <viewController id="U3g-rU-j0f" sceneMemberID="viewController">
+                <viewController id="U3g-rU-j0f" customClass="MainViewController" customModule="MK8Ball" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3yg-mI-OOu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -84,6 +84,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Main" id="nh9-Kc-Sqg"/>
+                    <connections>
+                        <outlet property="answerLabel" destination="pYs-UO-XDR" id="r7z-O0-ack"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RbC-al-fsm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

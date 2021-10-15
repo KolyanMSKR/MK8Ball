@@ -16,6 +16,7 @@
 		245695232719D93E0092DB09 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245695222719D93E0092DB09 /* TabBarController.swift */; };
 		245695252719DBB90092DB09 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245695242719DBB90092DB09 /* SettingsViewController.swift */; };
 		24569527271A01500092DB09 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24569526271A01500092DB09 /* NetworkService.swift */; };
+		2456952C271A04290092DB09 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2456952B271A04290092DB09 /* Answer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		245695222719D93E0092DB09 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		245695242719DBB90092DB09 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		24569526271A01500092DB09 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		2456952B271A04290092DB09 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +67,8 @@
 				2456950E2719CC9A0092DB09 /* AppDelegate.swift */,
 				245695102719CC9A0092DB09 /* SceneDelegate.swift */,
 				24569528271A01DE0092DB09 /* ServiceFiles */,
-				245695222719D93E0092DB09 /* TabBarController.swift */,
-				245695122719CC9A0092DB09 /* MainViewController.swift */,
-				245695242719DBB90092DB09 /* SettingsViewController.swift */,
+				2456952A271A04160092DB09 /* Model */,
+				24569529271A03C30092DB09 /* Flow */,
 				245695142719CC9A0092DB09 /* Main.storyboard */,
 				245695172719CC9C0092DB09 /* Assets.xcassets */,
 				245695192719CC9C0092DB09 /* LaunchScreen.storyboard */,
@@ -82,6 +83,24 @@
 				24569526271A01500092DB09 /* NetworkService.swift */,
 			);
 			path = ServiceFiles;
+			sourceTree = "<group>";
+		};
+		24569529271A03C30092DB09 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				245695222719D93E0092DB09 /* TabBarController.swift */,
+				245695122719CC9A0092DB09 /* MainViewController.swift */,
+				245695242719DBB90092DB09 /* SettingsViewController.swift */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		2456952A271A04160092DB09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2456952B271A04290092DB09 /* Answer.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +176,7 @@
 				245695132719CC9A0092DB09 /* MainViewController.swift in Sources */,
 				245695232719D93E0092DB09 /* TabBarController.swift in Sources */,
 				2456950F2719CC9A0092DB09 /* AppDelegate.swift in Sources */,
+				2456952C271A04290092DB09 /* Answer.swift in Sources */,
 				245695252719DBB90092DB09 /* SettingsViewController.swift in Sources */,
 				24569527271A01500092DB09 /* NetworkService.swift in Sources */,
 				245695112719CC9A0092DB09 /* SceneDelegate.swift in Sources */,
