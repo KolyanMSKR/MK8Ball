@@ -17,6 +17,8 @@
 		245695252719DBB90092DB09 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245695242719DBB90092DB09 /* SettingsViewController.swift */; };
 		24569527271A01500092DB09 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24569526271A01500092DB09 /* NetworkService.swift */; };
 		2456952C271A04290092DB09 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2456952B271A04290092DB09 /* Answer.swift */; };
+		2456952F271A09F60092DB09 /* MK8Ball.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2456952D271A09F60092DB09 /* MK8Ball.xcdatamodeld */; };
+		24569531271A0A9C0092DB09 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24569530271A0A9C0092DB09 /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		245695242719DBB90092DB09 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		24569526271A01500092DB09 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		2456952B271A04290092DB09 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		2456952E271A09F60092DB09 /* MK8Ball.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MK8Ball.xcdatamodel; sourceTree = "<group>"; };
+		24569530271A0A9C0092DB09 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,10 +70,12 @@
 			children = (
 				2456950E2719CC9A0092DB09 /* AppDelegate.swift */,
 				245695102719CC9A0092DB09 /* SceneDelegate.swift */,
+				24569537271A0F8D0092DB09 /* CoreData */,
 				24569528271A01DE0092DB09 /* ServiceFiles */,
 				2456952A271A04160092DB09 /* Model */,
 				24569529271A03C30092DB09 /* Flow */,
 				245695142719CC9A0092DB09 /* Main.storyboard */,
+				2456952D271A09F60092DB09 /* MK8Ball.xcdatamodeld */,
 				245695172719CC9C0092DB09 /* Assets.xcassets */,
 				245695192719CC9C0092DB09 /* LaunchScreen.storyboard */,
 				2456951C2719CC9C0092DB09 /* Info.plist */,
@@ -101,6 +107,14 @@
 				2456952B271A04290092DB09 /* Answer.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		24569537271A0F8D0092DB09 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				24569530271A0A9C0092DB09 /* CoreDataStack.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,10 +190,12 @@
 				245695132719CC9A0092DB09 /* MainViewController.swift in Sources */,
 				245695232719D93E0092DB09 /* TabBarController.swift in Sources */,
 				2456950F2719CC9A0092DB09 /* AppDelegate.swift in Sources */,
+				24569531271A0A9C0092DB09 /* CoreDataStack.swift in Sources */,
 				2456952C271A04290092DB09 /* Answer.swift in Sources */,
 				245695252719DBB90092DB09 /* SettingsViewController.swift in Sources */,
 				24569527271A01500092DB09 /* NetworkService.swift in Sources */,
 				245695112719CC9A0092DB09 /* SceneDelegate.swift in Sources */,
+				2456952F271A09F60092DB09 /* MK8Ball.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +395,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2456952D271A09F60092DB09 /* MK8Ball.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2456952E271A09F60092DB09 /* MK8Ball.xcdatamodel */,
+			);
+			currentVersion = 2456952E271A09F60092DB09 /* MK8Ball.xcdatamodel */;
+			path = MK8Ball.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 245695032719CC9A0092DB09 /* Project object */;
 }
